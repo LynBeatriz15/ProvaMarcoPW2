@@ -24,4 +24,5 @@ public class JogoController {
         model.addAttribute("jogos", jogoRepo.findAll());
         return "/jogo/list";
     }
+    
 }
