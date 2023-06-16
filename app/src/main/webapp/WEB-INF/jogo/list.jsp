@@ -4,7 +4,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
-        <title>Jogos</title>
+        <title>Lista de Jogos</title>
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
@@ -15,7 +15,7 @@
                 <tr>
                     <th>Id</th>
                     <th>Titulo</th>
-                    <th>Ano De Lançamento</th>
+                    <th>Ano</th>
                     <th>&nbsp;</th>
                 </tr>
                 <c:forEach var="item" items="${jogos}">
